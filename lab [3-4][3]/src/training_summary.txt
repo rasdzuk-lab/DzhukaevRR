@@ -1,0 +1,4 @@
+Training completed successfully!
+Final training loss: 0.2523
+Validation accuracy: 0.9714
+Test accuracy: 0.9714
