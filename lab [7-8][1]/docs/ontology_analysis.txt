@@ -1,0 +1,3 @@
+Корневые классы онтологии: DomainThing, ValuePartition.
+Глубина иерархии: 5 уровней иерархии у DomainThing, 2 уровня у ValuePartition.
+Основные категории пицц: cheese (сырная), interesting (интересующая), meaty (мясная), named (именная), non-vegetarian (невегетарианская), real italian (настоящая итальянская), spicy (острая), Thin and crispy (тонкая и хрустящая), unclosed (незакрытая), vegetarian (вегетарианская).
