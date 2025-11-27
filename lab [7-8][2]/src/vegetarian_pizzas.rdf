@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/vegetarian#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#American">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent">
+    <ex:hasTopping rdf:nodeID="N1f494242a2354fa18beb00034121e4c9"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina">
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+    <ex:hasTopping rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping"/>
+    <ex:isVegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:isVegetarian>
+  </rdf:Description>
+</rdf:RDF>
