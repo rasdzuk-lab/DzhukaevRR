@@ -1,0 +1,18 @@
+[
+  {
+    "query": "Find pizzas with mushroom",
+    "generated_sparql": "PREFIX pizza: <http://www.co-ode.org/ontologies/pizza/pizza.owl#>\n                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n                SELECT ?pizza ?name\n                WHERE {\n                    ?pizza a pizza:Pizza .\n                    ?pizza rdfs:label ?name .\n                    ?pizza pizza:hasTopping ?topping .\n                    FILTER",
+    "pattern_score": 0.6666666666666666,
+    "result_score": 0.0,
+    "total_score": 0.39999999999999997,
+    "status": "FAIL"
+  },
+  {
+    "query": "Show vegetarian pizzas",
+    "generated_sparql": "PREFIX pizza: <http://www.co-ode.org/ontologies/pizza/pizza.owl#>\n                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n                \n                SELECT ?pizza ?name\n                WHERE {\n                    ?pizza a pizza:Pizza .\n                    ?pizza rdfs:label ?name .\n                    ?pizza pizza:hasTopping",
+    "pattern_score": 0.0,
+    "result_score": 0.0,
+    "total_score": 0.0,
+    "status": "FAIL"
+  }
+]
