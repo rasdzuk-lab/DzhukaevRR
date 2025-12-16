@@ -1,0 +1,1 @@
+{"request_id":"53fec465-4f62-4520-95e5-e294b1d4bb68","predictions":[{"emotion":"joy","confidence":0.5}],"model_version":"v1.0","processing_time":0.0012404918670654297}

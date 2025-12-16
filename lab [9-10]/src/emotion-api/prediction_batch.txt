@@ -1,0 +1,1 @@
+{"request_id":"da3b177c-ff85-4864-8276-fb1dc988e28e","predictions":[{"emotion":"joy","confidence":0.4},{"emotion":"love","confidence":0.6},{"emotion":"joy","confidence":0.3}],"model_version":"v1.0","processing_time":0.0062313079833984375}

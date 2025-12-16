@@ -1,0 +1,7 @@
+# requirements.txt
+fastapi==0.118.1
+uvicorn[standard]==0.37.0
+pydantic==2.11.9
+scikit-learn==1.7.2
+numpy==2.2.6
+
