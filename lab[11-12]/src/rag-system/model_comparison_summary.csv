@@ -1,0 +1,5 @@
+model,avg_generation_time,avg_keyword_coverage,success_rate,avg_answer_length
+facebook/bart-base,1.144,0.0,1.0,33.5
+gpt2-medium,227.529,0.0,1.0,802.5
+microsoft/DialoGPT-medium,39.017,0.0,1.0,0.0
+t5-small,0.136,0.0,1.0,17.5

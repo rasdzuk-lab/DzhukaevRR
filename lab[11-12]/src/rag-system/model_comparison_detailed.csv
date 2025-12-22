@@ -1,0 +1,13 @@
+model,question,answer,generation_time,answer_length,success,keyword_coverage,matched_keywords_count,answer_has_content,contains_uncertainty
+gpt2-medium,Что такое машинное обучение?,"The Russian Defence Ministry said Monday that the Ukrainian military launched a series of strikes on separatist positions in Donetsk and Luhansk regions, killing at least seven people. Ukraine's defence ministry also warned Russia not to launch more attacks against its servicemen or airbase south-west Moscow as they are preparing for an invasion by NATO troops after Crimea voted overwhelmingly to join Russia last month.""Dozens died today when our aircraft hit terrorists' hideouts,"" spokesman Andriy Lysenko tweeted late Sunday night. ""We'll hold them accountable...""Lysennkova told reporters she did believe Putin was behind the strike but would provide no further details despite calls from US Secretary Clinton earlier this week to do so.According To The Times , many Russians have been convinced since December 2015 that their country is under assault - with some even believing it could be",226.49520683288574,898,True,0.0,0,True,False
+gpt2-medium,Какие типы нейронных сетей вы знаете?,"The most common question is: ""Are you a Russian, or did you say 'no'?"" The answer to this will depend on if the person was speaking in English (or spoken with an accent) or not. If they were just trying out what language it would be difficult for them but there are some things that we can take from our experience so far and show here…
+Russian – It doesn't matter! You don´t need to speak anything else than your mother tongue - even when using any of the different words used by Russians like krasnoye i lub (""my dear"") . This means no more questions as long at all...
+
+
+If someone has heard native languages before then I think their choice might have been based on familiarity rather being influenced by",228.56229305267334,707,True,0.0,0,True,False
+t5-small,Что такое машинное обучение?,Oто такое маинное оуени?,0.16470026969909668,24,True,0.0,0,True,False
+t5-small,Какие типы нейронных сетей вы знаете?,сете наете?,0.10685920715332031,11,True,0.0,0,True,False
+facebook/bart-base,Что такое машинное обучение?,Что такое машинно�е обучение?,0.9740159511566162,29,True,0.0,0,True,False
+facebook/bart-base,Какие типы нейронных сетей вы знаете?,Какие типы нейронных сетеле вы знаеть?,1.313795804977417,38,True,0.0,0,True,False
+microsoft/DialoGPT-medium,Что такое машинное обучение?,,34.17354154586792,0,True,0.0,0,False,False
+microsoft/DialoGPT-medium,Какие типы нейронных сетей вы знаете?,,43.86078071594238,0,True,0.0,0,False,False
